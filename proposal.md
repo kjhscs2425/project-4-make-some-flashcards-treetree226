@@ -1,64 +1,64 @@
 1. Write at least 3 questions and answers:
 
 Q1: What's Mia's favorite color?
-A1:purple 
+A1:blue
 
 Q2: What's Mia's favorite drink at Couver coffee?
-A2:Earl Gray matcha OR Earl Gray latte
+A2:Earl Gray matcha 
 
 Q3:Does Mia prefer hot or cold weather?
 A3:cold
 
 Q4:What's Mia's favorite animal?
-A4:  
+A4:frog,rat, small brown bears
 
-Q5:
-A5: 
+Q5:T/F:Mia like shrimp chips
+A5: True
 
-Q6:
-A6: 
+Q6:One of Mia's favorite bands?
+A6: Green Day, The Cure
 
-Q7:
-A7: 
+Q7:Name one of Mia's pet peeves.
+A7: Loudly chewing, chewing with your mouth open
 
-Q8:
-A8: 
+Q8: Mia's boyfriend's name?
+A8: Ryan
 
-Q9:
-A9: 
+Q9:What does Mia do when she eats good food?
+A9: Dance
 
-Q10:
-A10: 
+Q10:What food does she HATE?
+A10: cream cheese, cottage cheese, mashed potatoes, sour cream
 
-Q11:
-A11: 
+Q11:What's her mom's name?
+A11: Jenny
 
-Q12:
-A12: 
+Q12:What smell can she not stand?
+A12: Yogurt and pickles
 
-Q13:
-A13: 
+Q13:What is Mia's favorite Teaspoon order?
+A13: Jasmine tea, Ladybug
 
-Q14:
-A14: 
+Q14: Her favorite Chinese dish?
+A14: Braised duck, Trisha's mom's cooking
 
-Q15:
-A15: 
+Q15:Her biggest secret?
+A15: THERE SHOULDN'T BE AN ANSWER YOU SNITCH
 
-Q16:
-A16: 
+Q16: What does Mia most commonly draw on other people's paper?
+A16: pigs
 
-Q17:
-A17: 
+Q17:What could she only wear until the middle of high school?
+A17: joggers, leggings, oversized t-shirts
 
-Q18:
-A18: 
+Q18:Favorite teacher?
+A18: Ms. Chun
 
-Q19:
-A19:
+Q19:When is her birthday?
+A19: November 15
 
-Q20:
-A20: 
+Q20:What does she want to be when she grows up?
+A20: Chemical enegineering
 
 2. How many times will you show each flashcard the first time the user runs your flashcards program?
 Once
