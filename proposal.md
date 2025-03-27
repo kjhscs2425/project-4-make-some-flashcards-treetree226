@@ -43,7 +43,7 @@ Q14: Her favorite Chinese dish?
 A14: Braised duck, Trisha's mom's cooking
 
 Q15:Her biggest secret?
-A15: THERE SHOULDN'T BE AN ANSWER YOU SNITCH
+A15: " " (it's only a space)
 
 Q16: What does Mia most commonly draw on other people's paper?
 A16: pigs
