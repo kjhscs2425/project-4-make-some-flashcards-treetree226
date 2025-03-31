@@ -1,4 +1,5 @@
 import random
+import json
 
 flashcards_easy= {
     "What's Mia's favorite color?": "blue", 
@@ -68,27 +69,30 @@ for randomquestion1 in randomquestion1s:
         print(f"""Your score is {score}""")
         print(f"""Your accuracy is {accuracy}%""")   
 
-# a=0
-# b=30
-# c=50
-# d=70
-# e=100
-
-# FIX THIS PART 
-
-if accuracy <= 29.9999999:
+if accuracy <= 30:
    print(f"""Your accuracy is {accuracy}%. Do you even know her?""")  
-if accuracy <=30:
+elif accuracy <=50:
    print(f"""Your accuracy is {accuracy}%. Do you even know her name?""")  
-if accuracy <= 50:
+elif accuracy <= 70:
    print(f"""Your accuracy is {accuracy}%. I bet you only text her to use her for math answers.""")  
-if accuracy <= 70 :
-   print(f"""Your accuracy is {accuracy}%. Not bad but could be better.""")  
-if accuracy == 100:
+elif accuracy == 100:
    print(f"""Your accuracy is {accuracy}%. YOU ARE WIFEY MATERIAL SLAY GIRL.""") 
 
+# with open "main.txt", "w" as f:
+#     f.write("__")
 
+# read file
+with open("data.json", "r") as f:
+    d=json.load(f)
 
+     # add new accuracy to the games list
+    d["game"].append(accuracy)
+
+with open("data.json","w") as f:
+    json.dump(d,f)
+
+#FIX HERE
+print(f"""Your previous accuracies were ___""")
 
 
 
