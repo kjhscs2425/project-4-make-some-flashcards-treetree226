@@ -4,10 +4,10 @@ import json
 flashcards_easy= {
     "What's Mia's favorite color?": "blue", 
     "Does Mia prefer hot or cold weather?": "cold",
-    "What's Mia's favorite animal?" : "rat", #TODO: ADD MORE MAKE WITH LIST
+    "What's Mia's favorite animal?" : "rat", 
     "T/F:Mia like shrimp chips":"T",
     "One of Mia's favorite bands?": "green day",
-    "Mia's boyfriend's name?": "Ryan",
+    "Mia's boyfriend's name?": "ryan",
     "What does Mia most commonly draw on other people's paper?": "pig",
     "Favorite teacher?": "ms. chun",
     "When is her birthday?": "november 15",
@@ -49,6 +49,7 @@ for randomquestion in randomquestions:
         accuracy=(score/asked)*100
         print(f"""Your score is {score}""")
         print(f"""Your accuracy is {accuracy}%""")
+        print(f"""The answer is {flashcards_easy[randomquestion]}.""") 
 
 hardquestions= list(flashcards_hard.keys())
 randomquestion1s=random.sample(hardquestions, k=10)
@@ -67,7 +68,8 @@ for randomquestion1 in randomquestion1s:
         asked=asked+1
         accuracy=(score/asked)*100
         print(f"""Your score is {score}""")
-        print(f"""Your accuracy is {accuracy}%""")   
+        print(f"""Your accuracy is {accuracy}%""") 
+        print(f"""The answer is {flashcards_hard[randomquestion1]}.""")  
 
 if accuracy <= 30:
    print(f"""Your accuracy is {accuracy}%. Do you even know her?""")  
@@ -92,7 +94,7 @@ with open("data.json","w") as f:
     json.dump(d,f)
 
 #FIX HERE
-print(f"""Your previous accuracies were ___""")
+print(f"""Previous accuracies were {d["game"]}""")
 
 
 
